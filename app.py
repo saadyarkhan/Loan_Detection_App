@@ -20,7 +20,7 @@ st.write("Fill in the applicant's details and click Predict.")
 
 col1, col2 = st.columns(2)
 with col1:
-    gender = st.selectbox("Gender ebad", encoders["Gender"].classes_)
+    gender = st.selectbox("Gender", encoders["Gender"].classes_)
     married = st.selectbox("Married", encoders["Married"].classes_)
     education = st.selectbox("Education", encoders["Education"].classes_)
     self_employed = st.selectbox("Self Employed", encoders["Self_Employed"].classes_)
