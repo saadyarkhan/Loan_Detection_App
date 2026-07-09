@@ -35,7 +35,7 @@ with col2:
 
 if st.button("Predict", type="primary"):
     row = {
-        "Gender": encoders["Gender"].transform([gender])[0],
+        "Gender ebad": encoders["Gender"].transform([gender])[0],
         "Married": encoders["Married"].transform([married])[0],
         "Education": encoders["Education"].transform([education])[0],
         "Self_Employed": encoders["Self_Employed"].transform([self_employed])[0],
