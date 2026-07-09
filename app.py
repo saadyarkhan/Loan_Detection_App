@@ -3,7 +3,6 @@ import pandas as pd
 import streamlit as st
 
 
-
 st.set_page_config(page_title="Loan Approval Predictor", page_icon="🏦")
 
 @st.cache_resource
